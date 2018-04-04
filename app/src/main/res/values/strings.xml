@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Asteroid Field Cleanup</string>
+    <string name="replay_button">"Replay"</string>
+    <string name="death_message">"Alas commander, you have perished!!"</string>
+    <string name="victory_message">"You have cleared the asteroids!"</string>
+    <string name="score_text">"Score : " %1$s</string>
+
+    <string name="asteroid">Asteroid</string>
+    <string name="laser_blast">Laser Blast</string>
+    <string name="energy_shield_effect">Energy Shield Effect</string>
+    <string name="player_character">Player Character</string>
+    <string name="fire_blaster_button">Fire Blaster Button</string>
+    <string name="shield_button">Shield_Button</string>
+
+</resources>

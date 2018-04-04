@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/starfield"
+    android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+    tools:context="spollina.com.Asteroid_Field_Cleanup_spollina.MainActivity"
+
+    tools:layout_editor_absoluteY="73dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <ImageView
+        android:id="@+id/asteroid1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098"
+        app:srcCompat="@drawable/asteroid" 
+        android:contentDescription="@string/asteroid" />
+
+    <ImageView
+        android:id="@+id/asteroid2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098"
+        app:srcCompat="@drawable/asteroid"
+        android:contentDescription="@string/asteroid" />
+
+    <ImageView
+        android:id="@+id/asteroid3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098"
+        app:srcCompat="@drawable/asteroid"
+        android:contentDescription="@string/asteroid" />
+
+    <ImageView
+        android:id="@+id/asteroid4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098"
+        app:srcCompat="@drawable/asteroid"
+        android:contentDescription="@string/asteroid" />
+
+    <ImageView
+        android:id="@+id/asteroid5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098"
+        app:srcCompat="@drawable/asteroid"
+        android:contentDescription="@string/asteroid" />
+
+    <ImageView
+        android:id="@+id/asteroid6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098"
+        app:srcCompat="@drawable/asteroid"
+        android:contentDescription="@string/asteroid" />
+
+    <ImageView
+        android:id="@+id/asteroid7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098"
+        app:srcCompat="@drawable/asteroid"
+        android:contentDescription="@string/asteroid" />
+
+    <ImageView
+        android:id="@+id/asteroid8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098"
+        app:srcCompat="@drawable/asteroid"
+        android:contentDescription="@string/asteroid" />
+
+    <ImageView
+        android:id="@+id/asteroid9"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098"
+        app:srcCompat="@drawable/asteroid"
+        android:contentDescription="@string/asteroid" />
+
+    <ImageView
+        android:id="@+id/asteroid10"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098"
+        app:srcCompat="@drawable/asteroid"
+        android:contentDescription="@string/asteroid" />
+
+    <ImageView
+        android:id="@+id/asteroid11"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098"
+        app:srcCompat="@drawable/asteroid"
+        android:contentDescription="@string/asteroid" />
+
+    <ImageView
+        android:id="@+id/asteroid12"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098"
+        app:srcCompat="@drawable/asteroid"
+        android:contentDescription="@string/asteroid" />
+
+    <ImageView
+        android:id="@+id/asteroid13"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098"
+        app:srcCompat="@drawable/asteroid"
+        android:contentDescription="@string/asteroid" />
+
+    <ImageView
+        android:id="@+id/asteroid14"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098"
+        app:srcCompat="@drawable/asteroid"
+        android:contentDescription="@string/asteroid" />
+
+    <ImageView
+        android:id="@+id/asteroid15"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098"
+        app:srcCompat="@drawable/asteroid"
+        android:contentDescription="@string/asteroid" />
+
+    <ImageView
+        android:id="@+id/asteroid16"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098"
+        app:srcCompat="@drawable/asteroid"
+        android:contentDescription="@string/asteroid" />
+
+    <ImageView
+        android:id="@+id/asteroid17"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098"
+        app:srcCompat="@drawable/asteroid"
+        android:contentDescription="@string/asteroid" />
+
+    <ImageView
+        android:id="@+id/asteroid18"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098"
+        app:srcCompat="@drawable/asteroid"
+        android:contentDescription="@string/asteroid" />
+
+    <ImageView
+        android:id="@+id/asteroid19"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098"
+        app:srcCompat="@drawable/asteroid"
+        android:contentDescription="@string/asteroid" />
+
+    <ImageView
+        android:id="@+id/asteroid20"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098"
+        app:srcCompat="@drawable/asteroid"
+        android:contentDescription="@string/asteroid" />
+
+    <ImageView
+        android:id="@+id/laserBlast1"
+        android:layout_width="40dp"
+        android:layout_height="10dp"
+        app:srcCompat="@drawable/laser"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:contentDescription="@string/laser_blast" />
+
+    <ImageView
+        android:id="@+id/laserBlast2"
+        android:layout_width="40dp"
+        android:layout_height="10dp"
+        app:srcCompat="@drawable/laser"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:contentDescription="@string/laser_blast" />
+
+    <ImageView
+        android:id="@+id/laserBlast3"
+        android:layout_width="40dp"
+        android:layout_height="10dp"
+        app:srcCompat="@drawable/laser"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:contentDescription="@string/laser_blast" />
+
+    <ImageView
+        android:id="@+id/laserBlast4"
+        android:layout_width="40dp"
+        android:layout_height="10dp"
+        app:srcCompat="@drawable/laser"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:contentDescription="@string/laser_blast" />
+
+    <ImageView
+        android:id="@+id/laserBlast5"
+        android:layout_width="40dp"
+        android:layout_height="10dp"
+        app:srcCompat="@drawable/laser"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:contentDescription="@string/laser_blast" />
+
+    <ImageView
+        android:id="@+id/laserBlast6"
+        android:layout_width="40dp"
+        android:layout_height="10dp"
+        app:srcCompat="@drawable/laser"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:contentDescription="@string/laser_blast" />
+
+    <ImageView
+        android:id="@+id/laserBlast7"
+        android:layout_width="40dp"
+        android:layout_height="10dp"
+        app:srcCompat="@drawable/laser"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:contentDescription="@string/laser_blast" />
+
+    <ImageView
+        android:id="@+id/laserBlast8"
+        android:layout_width="40dp"
+        android:layout_height="10dp"
+        app:srcCompat="@drawable/laser"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:contentDescription="@string/laser_blast" />
+
+    <ImageView
+        android:id="@+id/playerCharacter"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/spaceship"
+        android:contentDescription="@string/player_character" />
+
+    <ImageView
+        android:id="@+id/energyShieldEffect"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="136dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/energy_shield"
+        android:contentDescription="@string/energy_shield_effect"/>
+
+    <com.jmedeisis.bugstick.Joystick
+        android:id="@+id/joystick"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/bg_base"
+        app:force_square="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:motion_constraint="None"
+        app:start_on_first_touch="true">
+
+        <Button
+            android:id="@+id/joystickHead"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/bg_stick" />
+    </com.jmedeisis.bugstick.Joystick>
+
+    <spollina.com.Asteroid_Field_Cleanup_spollina.BugView
+        android:id="@+id/bugview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/joystick"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/score_text"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/replayTextView"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/replayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="replayButton_click"
+        android:text="@string/replay_button"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scoreTextView"
+        app:layout_constraintVertical_bias="0.479" />
+
+    <TextView
+        android:id="@+id/replayTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/replayButton"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ImageButton
+        android:id="@+id/shieldButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/my_gradient"
+        android:onClick="shield_click"
+        android:padding="2dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@drawable/energy_shield_button"
+        android:contentDescription="@string/shield_button" />
+
+    <ImageButton
+        android:id="@+id/fireBlasterButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/my_gradient"
+        android:onClick="fireBlaster_click"
+        android:padding="2dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/shieldButton"
+        app:srcCompat="@drawable/laser"
+        android:contentDescription="@string/fire_blaster_button" />
+
+</android.support.constraint.ConstraintLayout>
